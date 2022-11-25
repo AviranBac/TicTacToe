@@ -1,17 +1,19 @@
 <resources>
     <string name="app_name">TicTacToe</string>
     <string name="back_image_view">Back image view</string>
-    <string name="cellBtn0">cellBtn0</string>
-    <string name="cellBtn1">cellBtn1</string>
-    <string name="cellBtn2">cellBtn2</string>
-    <string name="cellBtn3">cellBtn3</string>
-    <string name="cellBtn4">cellBtn4</string>
-    <string name="cellBtn5">cellBtn5</string>
-    <string name="cellBtn6">cellBtn6</string>
-    <string name="cellBtn7">cellBtn7</string>
-    <string name="cellBtn8">cellBtn8</string>
-    <string name="resetBtn">resetBtn</string>
-    <string name="statusBtn">statusBtn</string>
+    <string name="win_mark">win_mark</string>
+    <string name="cell_btn_0">cell_btn_0</string>
+    <string name="cell_btn_1">cell_btn_1</string>
+    <string name="cell_btn_2">cell_btn_2</string>
+    <string name="cell_btn_3">cell_btn_3</string>
+    <string name="cell_btn_4">cell_btn_4</string>
+    <string name="cell_btn_5">cell_btn_5</string>
+    <string name="cell_btn_6">cell_btn_6</string>
+    <string name="cell_btn_7">cell_btn_7</string>
+    <string name="cell_btn_8">cell_btn_8</string>
+    <string name="reset_btn">reset_btn</string>
+    <string name="status_btn">status_btn</string>
+    <string name="play_again">Play Again</string>
 
 
 </resources>

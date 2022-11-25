@@ -19,151 +19,166 @@
         app:srcCompat="@drawable/back" />
 
     <ImageView
-        android:id="@+id/cellBtn0"
+        android:id="@+id/win_mark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/win_mark"
+        android:translationZ="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/empty" />
+
+    <ImageView
+        android:id="@+id/cell_btn_0"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:tag="0"
-        android:contentDescription="@string/cellBtn0"
-        app:layout_constraintBottom_toTopOf="@+id/cellBtn3"
-        app:layout_constraintEnd_toStartOf="@+id/cellBtn1"
+        android:contentDescription="@string/cell_btn_0"
+        app:layout_constraintBottom_toTopOf="@+id/cell_btn_3"
+        app:layout_constraintEnd_toStartOf="@+id/cell_btn_1"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/empty" />
 
     <ImageView
-        android:id="@+id/cellBtn1"
+        android:id="@+id/cell_btn_1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:tag="1"
-        android:contentDescription="@string/cellBtn1"
-        app:layout_constraintEnd_toStartOf="@+id/cellBtn2"
+        android:contentDescription="@string/cell_btn_1"
+        app:layout_constraintEnd_toStartOf="@+id/cell_btn_2"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/cellBtn0"
+        app:layout_constraintStart_toEndOf="@+id/cell_btn_0"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/empty" />
 
     <ImageView
-        android:id="@+id/cellBtn2"
+        android:id="@+id/cell_btn_2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="0dp"
         android:adjustViewBounds="true"
         android:tag="2"
-        android:contentDescription="@string/cellBtn2"
+        android:contentDescription="@string/cell_btn_2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/cellBtn1"
+        app:layout_constraintStart_toEndOf="@+id/cell_btn_1"
         app:layout_constraintTop_toTopOf="@+id/backImageView"
         app:srcCompat="@drawable/empty" />
 
     <ImageView
-        android:id="@+id/cellBtn3"
+        android:id="@+id/cell_btn_3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:tag="3"
-        android:contentDescription="@string/cellBtn3"
-        app:layout_constraintEnd_toStartOf="@+id/cellBtn4"
+        android:contentDescription="@string/cell_btn_3"
+        app:layout_constraintEnd_toStartOf="@+id/cell_btn_4"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cellBtn0"
+        app:layout_constraintTop_toBottomOf="@+id/cell_btn_0"
         app:srcCompat="@drawable/empty" />
 
     <ImageView
-        android:id="@+id/cellBtn4"
+        android:id="@+id/cell_btn_4"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="0dp"
         android:adjustViewBounds="true"
         android:tag="4"
-        android:contentDescription="@string/cellBtn4"
-        app:layout_constraintEnd_toStartOf="@+id/cellBtn5"
+        android:contentDescription="@string/cell_btn_4"
+        app:layout_constraintEnd_toStartOf="@+id/cell_btn_5"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/cellBtn3"
-        app:layout_constraintTop_toBottomOf="@+id/cellBtn1"
+        app:layout_constraintStart_toEndOf="@+id/cell_btn_3"
+        app:layout_constraintTop_toBottomOf="@+id/cell_btn_1"
         app:srcCompat="@drawable/empty" />
 
     <ImageView
-        android:id="@+id/cellBtn5"
+        android:id="@+id/cell_btn_5"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="0dp"
         android:adjustViewBounds="true"
         android:tag="5"
-        android:contentDescription="@string/cellBtn5"
+        android:contentDescription="@string/cell_btn_5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/cellBtn4"
-        app:layout_constraintTop_toBottomOf="@+id/cellBtn2"
+        app:layout_constraintStart_toEndOf="@+id/cell_btn_4"
+        app:layout_constraintTop_toBottomOf="@+id/cell_btn_2"
         app:srcCompat="@drawable/empty" />
 
     <ImageView
-        android:id="@+id/cellBtn6"
+        android:id="@+id/cell_btn_6"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:tag="6"
-        android:contentDescription="@string/cellBtn6"
-        app:layout_constraintEnd_toStartOf="@+id/cellBtn4"
+        android:contentDescription="@string/cell_btn_6"
+        app:layout_constraintEnd_toStartOf="@+id/cell_btn_4"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cellBtn3"
+        app:layout_constraintTop_toBottomOf="@+id/cell_btn_3"
         app:srcCompat="@drawable/empty" />
 
     <ImageView
-        android:id="@+id/cellBtn7"
+        android:id="@+id/cell_btn_7"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="0dp"
         android:adjustViewBounds="true"
         android:tag="7"
-        android:contentDescription="@string/cellBtn7"
-        app:layout_constraintEnd_toStartOf="@+id/cellBtn8"
+        android:contentDescription="@string/cell_btn_7"
+        app:layout_constraintEnd_toStartOf="@+id/cell_btn_8"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/cellBtn6"
-        app:layout_constraintTop_toBottomOf="@+id/cellBtn4"
+        app:layout_constraintStart_toEndOf="@+id/cell_btn_6"
+        app:layout_constraintTop_toBottomOf="@+id/cell_btn_4"
         app:srcCompat="@drawable/empty" />
 
     <ImageView
-        android:id="@+id/cellBtn8"
+        android:id="@+id/cell_btn_8"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="0dp"
         android:adjustViewBounds="true"
         android:tag="8"
-        android:contentDescription="@string/cellBtn8"
+        android:contentDescription="@string/cell_btn_8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/cellBtn7"
-        app:layout_constraintTop_toBottomOf="@+id/cellBtn5"
+        app:layout_constraintStart_toEndOf="@+id/cell_btn_7"
+        app:layout_constraintTop_toBottomOf="@+id/cell_btn_5"
         app:srcCompat="@drawable/empty" />
 
     <ImageView
-        android:id="@+id/statusBtn"
+        android:id="@+id/status_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/status_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        android:contentDescription="@string/statusBtn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/backImageView"
         app:srcCompat="@drawable/empty"
         tools:visibility="visible" />
 
-    <ImageView
-        android:id="@+id/resetBtn"
-        android:layout_width="0dp"
+    <Button
+        android:id="@+id/reset_btn"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/resetBtn"
+        android:height="70dp"
+        android:contentDescription="@string/reset_btn"
+        android:text="@string/play_again"
+        android:textSize="20sp"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/statusBtn"
-        app:srcCompat="@drawable/empty"
-        tools:visibility="invisible" />
+        app:layout_constraintTop_toBottomOf="@+id/status_btn"
+        app:srcCompat="@drawable/empty" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
