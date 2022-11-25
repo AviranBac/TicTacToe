@@ -13,8 +13,157 @@
         android:adjustViewBounds="true"
         android:contentDescription="@string/back_image_view"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/cellBtn0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:tag="0"
+        android:contentDescription="@string/cellBtn0"
+        app:layout_constraintBottom_toTopOf="@+id/cellBtn3"
+        app:layout_constraintEnd_toStartOf="@+id/cellBtn1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/empty" />
+
+    <ImageView
+        android:id="@+id/cellBtn1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:tag="1"
+        android:contentDescription="@string/cellBtn1"
+        app:layout_constraintEnd_toStartOf="@+id/cellBtn2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cellBtn0"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/empty" />
+
+    <ImageView
+        android:id="@+id/cellBtn2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:adjustViewBounds="true"
+        android:tag="2"
+        android:contentDescription="@string/cellBtn2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cellBtn1"
+        app:layout_constraintTop_toTopOf="@+id/backImageView"
+        app:srcCompat="@drawable/empty" />
+
+    <ImageView
+        android:id="@+id/cellBtn3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:tag="3"
+        android:contentDescription="@string/cellBtn3"
+        app:layout_constraintEnd_toStartOf="@+id/cellBtn4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cellBtn0"
+        app:srcCompat="@drawable/empty" />
+
+    <ImageView
+        android:id="@+id/cellBtn4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:adjustViewBounds="true"
+        android:tag="4"
+        android:contentDescription="@string/cellBtn4"
+        app:layout_constraintEnd_toStartOf="@+id/cellBtn5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cellBtn3"
+        app:layout_constraintTop_toBottomOf="@+id/cellBtn1"
+        app:srcCompat="@drawable/empty" />
+
+    <ImageView
+        android:id="@+id/cellBtn5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:adjustViewBounds="true"
+        android:tag="5"
+        android:contentDescription="@string/cellBtn5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cellBtn4"
+        app:layout_constraintTop_toBottomOf="@+id/cellBtn2"
+        app:srcCompat="@drawable/empty" />
+
+    <ImageView
+        android:id="@+id/cellBtn6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:tag="6"
+        android:contentDescription="@string/cellBtn6"
+        app:layout_constraintEnd_toStartOf="@+id/cellBtn4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cellBtn3"
+        app:srcCompat="@drawable/empty" />
+
+    <ImageView
+        android:id="@+id/cellBtn7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:adjustViewBounds="true"
+        android:tag="7"
+        android:contentDescription="@string/cellBtn7"
+        app:layout_constraintEnd_toStartOf="@+id/cellBtn8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cellBtn6"
+        app:layout_constraintTop_toBottomOf="@+id/cellBtn4"
+        app:srcCompat="@drawable/empty" />
+
+    <ImageView
+        android:id="@+id/cellBtn8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:adjustViewBounds="true"
+        android:tag="8"
+        android:contentDescription="@string/cellBtn8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cellBtn7"
+        app:layout_constraintTop_toBottomOf="@+id/cellBtn5"
+        app:srcCompat="@drawable/empty" />
+
+    <ImageView
+        android:id="@+id/statusBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        android:contentDescription="@string/statusBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backImageView"
+        app:srcCompat="@drawable/empty"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/resetBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/resetBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/statusBtn"
+        app:srcCompat="@drawable/empty"
+        tools:visibility="invisible" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
